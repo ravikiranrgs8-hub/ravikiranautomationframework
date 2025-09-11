@@ -1,12 +1,18 @@
 package com.qa.opencart.pages;
 
+import org.openqa.selenium.By;
+
 public class cartpage {
 
-	public static void main(String[] args) {
+	 
 		
-		int i = 10;
-		System.out.println(i);
+		By locator = By.id("name");
+	    
+		public void username()
+		{
+			System.out.println("My name is Ravi");
+		}
 
-	}
+	
 
 }
